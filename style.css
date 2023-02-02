@@ -1,0 +1,46 @@
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(8, 7, 14);
+}
+#controls{
+    display: flex;
+    justify-content: space-around;
+}
+#controls i{
+    font-size: 30px;
+    color: purple;
+    margin-right: 20px;
+}
+#progress{
+    margin-bottom:20px;
+}
+#progress-bar{
+    width: 100%;
+}
+#progress .times{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container{
+    width: 350px;
+}
+#music-image{
+    width: 100%;
+}
+li.playing{
+    background-color: rgb(149, 221, 15);
+    color: white;
+}
+.fa-list{
+    font-size: 25px;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
